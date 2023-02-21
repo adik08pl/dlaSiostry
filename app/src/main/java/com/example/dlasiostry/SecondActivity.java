@@ -12,11 +12,16 @@ import java.util.List;
 
 public class SecondActivity extends AppCompatActivity {
 
-    private Button button1,button2,button3,button4,button5,button6,button8;
-    private boolean czyKlikniete1=true,czyKlikniete2=true,czyKlikniete3=true,czyKlikniete4=true,czyKlikniete5=true,czyKlikniete6=true;
-    private List<String> listaEnglish = new ArrayList<>();
-    private List<String> listaPolish = new ArrayList<>();
-    private SecondActivity this2=this;
+    private Button button2,button3,button4,button5,button6,button8;
+    private final boolean czyKlikniete1=true;
+    private boolean czyKlikniete2=true;
+    private boolean czyKlikniete3=true;
+    private boolean czyKlikniete4=true;
+    private boolean czyKlikniete5=true;
+    private boolean czyKlikniete6=true;
+    private final List<String> listaEnglish = new ArrayList<>();
+    private final List<String> listaPolish = new ArrayList<>();
+    private final SecondActivity this2=this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,26 +32,12 @@ public class SecondActivity extends AppCompatActivity {
         dodajDoListy("Słuch","ЯAƎH");
         dodajDoListy("Smak","ƎTƧAT");
         dodajDoListy("Dotyk","HƆUOT");
-        button1=(Button) findViewById(R.id.button1);
-        button2=(Button) findViewById(R.id.button2);
-        button3=(Button) findViewById(R.id.button3);
-        button4=(Button) findViewById(R.id.button4);
-        button5=(Button) findViewById(R.id.button5);
-        button6=(Button) findViewById(R.id.button6);
-        button8=(Button) findViewById(R.id.button8);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(czyKlikniete1){
-                    button1.setText(listaEnglish.get(0));
-                }
-                else{
-                    button1.setText(listaPolish.get(0));
-                }
-                button1.animate().rotationY(button1.getRotationY()-180);
-                czyKlikniete1=!czyKlikniete1;
-            }
-        });
+        button2= findViewById(R.id.button2);
+        button3= findViewById(R.id.button3);
+        button4= findViewById(R.id.button4);
+        button5= findViewById(R.id.button5);
+        button6= findViewById(R.id.button6);
+        button8= findViewById(R.id.button8);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -10,23 +10,12 @@
         android:id="@+id/button8"
         android:layout_width="321dp"
         android:layout_height="115dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="488dp"
-        android:text="poprzednie"
+        android:layout_marginTop="484dp"
+        android:text="WRÓĆ"
         android:textSize="13sp"
-        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="124dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="17dp"
-        android:text="Oczy"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -77,8 +66,8 @@
         android:id="@+id/button6"
         android:layout_width="124dp"
         android:layout_height="124dp"
-        android:layout_marginStart="220dp"
-        android:layout_marginTop="326dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
         android:text="dotyk"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"

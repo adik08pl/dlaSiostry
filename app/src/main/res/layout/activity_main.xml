@@ -23,7 +23,7 @@
         android:layout_height="124dp"
         android:layout_marginStart="19dp"
         android:layout_marginTop="17dp"
-        android:text="Głowa"
+        android:text="Zmysły"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,7 +34,7 @@
         android:layout_height="124dp"
         android:layout_marginStart="220dp"
         android:layout_marginTop="17dp"
-        android:text="usta"
+        android:text="ciało"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,8 +45,8 @@
         android:layout_height="124dp"
         android:layout_marginStart="19dp"
         android:layout_marginTop="167dp"
-        android:text="nos"
-        android:textSize="20sp"
+        android:text="zwierzęta"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
